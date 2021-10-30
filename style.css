@@ -213,18 +213,6 @@ center {
 	background-color: #FDCAE6;
 	border-radius: 20px;
 }
-.bg1 .Bimg2 {
-	display: none;
-}
-.bg1:hover .Bimg2 {
-	display: block;
-	text-align: center;
-	align-items: center;
-}
-.bg1:hover .Bimg1 {
-	display: none;
-}
-
 p {
 	background-color: #FDCAE6;
 }
@@ -242,4 +230,58 @@ p {
 .price:hover {
 	color: white;
 	background-color: #FF50A4;
+}
+.action {
+	background-color: #FDCAE6;
+}
+/* SHOP ITEM */
+.white_block {
+	margin-left: 22%;
+	height: 757px;
+	width: 1070px;
+	border-radius: 26px;
+	background-color: white;
+	justify-content: center;
+}
+.shop_img {
+	height: 575px;
+	width: 479px;
+	background-color: transparent;
+	top: 143px;
+	left: 301px;
+}
+.info {
+	position: absolute;
+	top: 297px;
+	left: 1020px;
+	font-size: xx-large;
+	background-color: transparent;
+}
+.size_b {
+	position: absolute;
+	top: 350px;
+	left: 1090px;
+	background-color: transparent;
+}
+.price_info {
+	position: absolute;
+	top: 500px;
+	left: 1150px;
+	background-color: transparent;
+}
+.price_value {
+	position: absolute;
+	top: 495px;
+	left: 1090px;
+	background-color: transparent;
+	color: #FDCAE6;
+	font-size: x-large;
+}
+.add_btn {
+	position: absolute;
+	border-radius: 28px;
+	height: 86px;
+	width: 369px;
+	left: 990px;
+	top: 650px;
 }
